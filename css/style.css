@@ -50,3 +50,193 @@ header nav a:hover{
     background-color: #fff000;
     color: #000;
 }
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer nav a:hover{
+    color:#fff000;
+    text-decoration: line-through;
+}
+
+main{
+    margin: auto;
+    width: 960px;
+    min-height: 570px;
+}
+
+main h1{
+    text-align: center;
+}
+
+.texto_banner{
+    font-size: 18pt;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#assistir{
+    text-decoration: none;
+    background-color: #0b7a07;
+    color: #fff;
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    font-size: 18pt;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.destaque{
+    background-color: #82c2ff;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgb(0, 35, 87);
+}
+
+.destaque div{
+    display: flex;
+}
+
+.destaque figure img{
+    width: 150px;
+}
+
+.strongzinho p,h1{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #f3cf00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 145, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#assinar{
+    text-decoration: none;
+    background-color: #0b7a07;
+    color: #fff;
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    font-size: 18pt;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.programacao{
+    display: flex;
+    flex-wrap: wrap; 
+    /* o flex wrap quebra a linha se n comportar tudo  */
+}
+
+.programacao h3{
+    width: 100%;
+}
+
+.programacao article img{
+    width: 150px;
+}
+
+.programacao article{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    /* o box-sizing trava o tamanho do width */
+}
+
+.programacao article section{
+    padding: 30px;
+}
+
+#galeria{
+    /* display: inline-block; */
+    /* o inline-block faz a mesma coisa, porém não interfere no tamanho da img */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img{
+    width: 200px;
+    margin: 10px 8px;
+}
+
+#destaque_plus{
+    display: flex;
+    justify-content: space-between;
+}
+
+#destaque_plus p{
+    text-align: center;
+}
+
+.planos{
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #41ff41;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+
+.planos #assinar{
+    width: 200px;
+    background-color: #0b7a07;
+    color: #fff;
+    font-size: 16pt;
+}
+
+.planos ul{
+    text-align: left;
+}
+
+.planos p span{
+    font-size: 22pt;
+    color: rgb(6, 139, 100);
+    font-weight: bold;
+}
+
+#contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+input,textarea{
+    display: block;
+    /* O Block deixa todos como caixinhas */
+    background-color: rgb(228, 228, 228);
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+}
+
+#contato button{
+    font-size: 18pt;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(82, 42, 146);
+    border-radius: 50px;
+    border: none;
+}
